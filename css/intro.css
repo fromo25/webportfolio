@@ -99,8 +99,8 @@ object .wrapper:after {
             transform: scale(0.8);
   }
   100% {
-    -webkit-transform: scale(8);
-            transform: scale(8);
+    -webkit-transform: scale(15);
+            transform: scale(15);
   }
 }
 @keyframes x__zoom {
@@ -109,8 +109,8 @@ object .wrapper:after {
             transform: scale(0.8);
   }
   100% {
-    -webkit-transform: scale(10);
-            transform: scale(10);
+    -webkit-transform: scale(15);
+            transform: scale(15);
   }
 }
 @-webkit-keyframes x__menu--fade-in {
@@ -146,11 +146,8 @@ object .wrapper:after {
 .logo-section {
   position: relative;
   width: 50em;
-  padding-top: 15em;
+  padding-top: 10em;
   z-index: 9999;
-}
-.logo-section:hover {
-  cursor: pointer;
 }
 .name, .wolf {
   stroke-dasharray: 500 ;
