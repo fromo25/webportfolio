@@ -79,7 +79,6 @@ nav {
   margin: 0 1em;
   float: right;
 }
-
 @media (max-width: 630px) {
   nav {
     height: 10%;
@@ -128,6 +127,7 @@ nav {
     display: none;
   }
 }
+
 /*Image Previews*/
 main {
   display: -webkit-box;
@@ -304,10 +304,10 @@ section:first-child:after, section:last-child:after {
 section:first-child article, section:last-child article {
   display: none;
 }
-
+/*Preview Descriptions*/
 article {
   position: relative;
-  width: 100%;
+  width: 98%;
   height: 100%;
   text-align: center;
   color: white;
@@ -402,11 +402,14 @@ hr {
   text-align: center;
   color: #ccc;
   font-family: 'Oswald', sans-serif;
-  font-size: 2em;
+  font-size: 16px;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
   margin-top: -4em;
+}
+.contact-info h1 {
+  font-size: 4em;
 }
 ul {
   list-style: none;
@@ -421,14 +424,14 @@ ul {
   vertical-align: baseline;
   box-sizing: border-box;
 }
-.contact-icons > li {
+.contact-icons li {
   border-radius: 50%;
   background-color: #444;
   width: 8rem;
   height: 8rem;
   line-height: 8em;
   display: inline-block;
-  margin: 1.3em .7em;
+  margin: 2em .75em;
   border: 1px solid #eaebec;
   padding: 0.625rem 0;
   text-align: center;
@@ -436,7 +439,7 @@ ul {
   vertical-align: baseline;
 }
 .contact-info .fa {
-  display:inline-block;
+  display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 5em;
   text-rendering: auto;
@@ -453,7 +456,7 @@ ul {
   font-family: 'Source Sans Pro', sans-serif;
   letter-spacing: 0.0075em;
   font-weight: 300;
-  margin-top: -8em;
+  margin-top: -7em;
 }
 @media (min-width: 630px) {
   .contact-info {
